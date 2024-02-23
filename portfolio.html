@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
-
+    <title>Sketchpen Studio</title>
 <body class="body">
     <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="w-nav">
         <!-- <div class="navbar-logo-center">
@@ -29,11 +29,11 @@
 
             </div>
         </div> -->
-        <div class="nav">
-            <input type="checkbox" id="nav-check">
-            <div class="nav-header">
-              <div class="nav-title">
-                <font color="#FF2626">S</font>
+        <header id="navbar">
+            <nav class="navbar-container container">
+              <a href="/" class="home-link">
+                <div class="navbar-logo">
+                  <font color="#FF2626">S</font>
                 <font color="#26ff2d">K</font>
                 <font color="#ed9c11">E</font>
                 <font color="#FFD523">T</font>
@@ -49,26 +49,29 @@
                 <font color="#26ff2d">D</font>
                 <font color="#ed9c11">I</font>
                 <font color="#FFD523">O</font>
+                </div>
+               
+                
+              </a>
+              <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div id="navbar-menu" aria-labelledby="navbar-toggle">
+                <ul class="navbar-links">
+                  <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
+                 
+                  <li class="navbar-item"><a class="navbar-link" href="portfolio.html">Portfolio</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="#ContactUs">Contact</a></li>
+                </ul>
               </div>
-            </div>
-            <div class="nav-btn">
-              <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
-            </div>
-            
-            <div class="nav-links">
-              <a href="index.html">Home</a>
-              <a href="#ContactUs">Contact US</a>
-              
-            </div>
-          </div>
+            </nav>
+          </header>
 
 
 
-    </div>
+    
 
     <section class="header2">
         <div class="container"></div>

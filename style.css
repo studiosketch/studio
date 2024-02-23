@@ -91,7 +91,7 @@
   .nav {
     height: 80px;
     width: 100%;
-    background-color: #4d4d4d;
+    background-color: #0f0f0f;
     position:relative;
     
     align-items: center;
@@ -106,9 +106,10 @@
   
   .nav > .nav-header > .nav-title {
     display: inline-block;
-    font-size: 22px;
+    font-size: 28px;
     color: #fff;
-    padding: 20px 10px 10px 10px;
+    padding-left: 50px;
+    padding-top: 20px;
   }
 
   .nav-title > a{
@@ -126,6 +127,7 @@
     display: inline;
     float: right;
     font-size: 18px;
+    padding-top: 10px;
   }
   
   .nav > .nav-links > a {
@@ -187,7 +189,7 @@
     color:#00f;
     mix-blend-mode: normal;
     margin-bottom: 24px;
-    padding-top: 60px;
+    padding-top: 100px;
     padding-left: 50px;
     padding-right: 40px;
     font-family:"Roboto Mono", sans-serif;
@@ -247,6 +249,7 @@
     margin-bottom: 0;
     padding-left: 300px;
     padding-right: 0;
+    font-weight: 400;
   }
 
   .draw-img{
@@ -319,7 +322,9 @@
   .hero-stack {
     background-image: url(./background/IMG_7B6AEA6C25F9-1.jpeg);
     border-bottom: 1px solid #e4ebf3;
-    padding: 10px 100px;
+    padding-top: 10px;
+    padding-right: 220px;
+    padding-left: 100px;
     position: relative;
   }
 
@@ -346,7 +351,7 @@
 
   .services {
     background-color: #2b2b2b;
-    padding: 40px 30px;
+    padding: 20px 20px;
     height: 400px;
     position: relative;
   }
@@ -382,15 +387,17 @@
     justify-content: center;
     text-align: center;
     font-family:"Roboto Mono", sans-serif;
-   
+    padding-top: 0px;
     font-weight: 400;
     font-size: 38px;
   }
    
   .backstage {
      
+    
      height: 500px;
      width: 100%;
+     
      
      
   }
@@ -398,11 +405,13 @@
   .setimage {
     height: 500px;
     width: 100%;
+    
    
   }
 
   .package {
     background-color: #fff;
+    background-image: url(./background/IMG_7B6AEA6C25F9-1.jpeg);
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
@@ -413,8 +422,8 @@
 
   .package-container-1 {
     max-width: 100%;
-    width: 70%;
-    padding-left: 220px;
+    width: 100%;
+    padding-left: 240px;
     padding-top: 20px;
 
 
@@ -422,10 +431,10 @@
 
   .package-container-2 {
     max-width: 50%;
-    width: 30%;
-    padding-right: 220px;
+    width: 40%;
+    padding-right: 130px;
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-bottom: 30px;
   }
 
@@ -485,6 +494,7 @@
   
   /* Style the counter cards */
   .card-slot {
+    padding-left: 70px;
     background-image: url(./background/IMG_7B6AEA6C25F9-1.jpeg);
   }
 
@@ -873,8 +883,11 @@
 }
 
 .ContactUs {
-    background-color: #5a5a5a;
+    
+    background-color: #000000;
     height: 220px;
+    padding-top: 15px;
+    
 }
 
 .header-text {

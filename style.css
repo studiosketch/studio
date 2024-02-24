@@ -221,8 +221,8 @@
   .feature-paragraph {
     width: 800 px;
     margin-bottom: 0;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     max-height: 1000px;
   }
 
@@ -340,8 +340,8 @@
   .hero-image {
     width: 100%;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     margin-top: 50px;
   }
 

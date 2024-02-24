@@ -206,6 +206,7 @@
     border-bottom: 1px solid #e4ebf3;
     padding:20px;
     position: relative;
+    display: inline;
   }
 
   .feature-left {
@@ -213,14 +214,14 @@
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    display: flex;
+    display: inline;
   }
 
   .feature-paragraph {
     width: 800 px;
     margin-bottom: 0;
-    padding-left: 300px;
-    padding-right: 0;
+    padding-left: 200px;
+    padding-right: 200px;
     max-height: 500px;
   }
 
@@ -228,7 +229,8 @@
     z-index: auto;
     background-image:url(./background/8F22FF9B-F86F-4D95-ACCE-064B4DCB3C3C.JPEG);
     text-align: left;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
     border-bottom: 1px solid #e4ebf3;
     padding:0;
     background-color: #efefef;
@@ -237,21 +239,22 @@
     background-position: 0 0;
     background-clip: border-box;
     position: relative;
+    display: inline-flex;
   }
 
-  .feature-left {
+  .feature-left-1 {
     max-width: 80%;
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    display: flex;
+    display: inline-flex;
   }
 
-  .feature-paragraph {
+  .feature-paragraph-1 {
     width: 800 px;
     margin-bottom: 0;
-    padding-left: 300px;
-    padding-right: 0;
+    padding-left: 200px;
+    padding-right: 0px;
     font-weight: 400;
   }
 
@@ -327,8 +330,8 @@
     background-image: url(./background/IMG_7B6AEA6C25F9-1.jpeg);
     border-bottom: 1px solid #e4ebf3;
     padding-top: 10px;
-    padding-right: 220px;
-    padding-left: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
     position: relative;
     display: block;
   }
@@ -337,7 +340,7 @@
     width: 100%;
     align-items: center;
     padding-left: 200px;
-    padding-right: 50px;
+    padding-right: 200px;
     margin-top: 50px;
   }
 
@@ -349,7 +352,7 @@
     margin-bottom: 24px;
     padding-top: 0px;
     padding-left: 200px;
-    padding-right: 40px;
+    padding-right: 100px;
     font-family:"Roboto Mono", sans-serif;
     font-weight: 200;
   }
@@ -364,13 +367,14 @@
     position: relative;
   }
   .grid-two {
-    grid-column-gap:40px;
+    grid-column-gap:80px;
     grid-row-gap:40px;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
     margin-top: 50px;
-    padding-left: 150px;
+    padding-left: 100px;
+    padding-right: 50px;
     display: grid;
     height: auto;
     background-color: #2b2b2b;
@@ -378,7 +382,7 @@
 
   .card-two {
     
-    flex-direction: 32px 16px 16px;
+    flex-direction: 16px 16px 16px;
     display: flex;
   }
 

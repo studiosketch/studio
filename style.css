@@ -206,7 +206,7 @@
     border-bottom: 1px solid #e4ebf3;
     padding:20px;
     position: relative;
-    max-height: 700px;
+    max-height: 100px;
     display: inline;
   }
 
@@ -223,7 +223,7 @@
     margin-bottom: 0;
     padding-left: 200px;
     padding-right: 200px;
-    max-height: 700px;
+    max-height: 1000px;
   }
 
   .about2 {

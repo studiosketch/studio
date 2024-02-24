@@ -899,6 +899,8 @@
   width: 100%;
   padding: 0.4em 0.8em;
   border-radius: 5px;
+  padding-top: 80px;
+  font-family: "Roboto Mono", sans-serif;  
 }
 
 .navbar-link:is(:focus, :hover) {
@@ -908,7 +910,7 @@
 .navbar-logo {
   background-color: var(--navbar-text-color-focus);
   border-radius: 50%;
-  font-family: "Roboto mono" sans-serif;
+  font-family: "Roboto Mono" sans-serif;
   font-weight: 300;
   font-size: 24px;
   
